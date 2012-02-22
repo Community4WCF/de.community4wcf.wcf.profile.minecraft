@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1513 2010-08-09 11:49:35Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.minecraft"><![CDATA[Minecraft]]></item>
+		<item name="wcf.user.option.minecraft.description"><![CDATA[Enter your accountname/playername.]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.minecraft.title"><![CDATA[Minecraft]]></item>
+	</category>
+</language>
