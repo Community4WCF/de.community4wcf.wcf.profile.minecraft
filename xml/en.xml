@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1916 2012-03-12 00:58:48Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.minecraft"><![CDATA[Minecraft]]></item>
+		<item name="wcf.user.option.minecraft.description"><![CDATA[Enter your accountname/playername.]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.minecraft.title"><![CDATA[Minecraft]]></item>
+		
+		<item name="wcf.user.profile.minecraft.url.account"><![CDATA[Account]]></item>
+		<item name="wcf.user.profile.minecraft.url.skin"><![CDATA[Skin]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.profile.minecraft"><![CDATA[Minecraft Profilefield]]></item>
+		<item name="wcf.acp.option.category.user.profile.minecraft.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.user_minecraft_url_select"><![CDATA[Select URL]]></item>
+		<item name="wcf.acp.option.user_minecraft_url_select.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.user_minecraft_url_enable"><![CDATA[Own URL]]></item>
+		<item name="wcf.acp.option.user_minecraft_url_enable.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.user_minecraft_url"><![CDATA[URL]]></item>
+		<item name="wcf.acp.option.user_minecraft_url.description"><![CDATA[]]></item>
+	</category>
+</language>

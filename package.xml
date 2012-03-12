@@ -8,17 +8,19 @@
 		<packagedescription><![CDATA[]]></packagedescription>
 		<packagedescription language="de"><![CDATA[]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[]]></packagedescription>
-		<version>1.0.0</version> <!-- codename: Minecraft profilfield -->
+		<version>1.0.0 Alpha 1</version> <!-- codename: Minecraft profilfield -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<date>2011-03-20</date>
+		<date>2012-03-12</date>
 		<isunique>1</isunique>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.page.user.profile</plugin>
 	</packageinformation>
 	
-	<licenseinformation>
-		<license><![CDATA[GPL]]></license>
-		<licenseURL><![CDATA[http://www.gnu.org/licenses/gpl.html]]></licenseURL>
+	<!-- Icon: http://openclipart.org/detail/135451/minecraft-block-by-tavin -->
+	
+    <licenseinformation>
+		<license><![CDATA[LGPL]]></license>
+		<licenseURL><![CDATA[http://www.gnu.org/licenses/lgpl.html]]></licenseURL>
 	</licenseinformation>
 	
 	<authorinformation>
@@ -28,20 +30,35 @@
 	
 	<requiredpackages>
 		<!-- WoltLab Community Framework -->
-		<requiredpackage minversion="1.1.*">com.woltlab.wcf</requiredpackage> 
+		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage> 
 		<!-- User Profile Page -->
-		<requiredpackage>com.woltlab.wcf.page.user.profile</requiredpackage> 
+		<requiredpackage minversion="1.1.6">com.woltlab.wcf.page.user.profile</requiredpackage> 
 	</requiredpackages>
 	<excludedpackages>
 		<excludedpackage>com.woltlab.community.profile.minecraft</excludedpackage>
+		<excludedpackage>net.deanr.profile.minecraft</excludedpackage>
 	</excludedpackages>
 	
 	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
 		<!-- config -->
-		<useroptions>useroptions.xml</useroptions>
+		<useroptions>xml/useroptions.xml</useroptions>
+		<options>xml/options.xml</options>
 		<!-- languages -->
-		<languages languagecode="de">de.xml</languages>
-		<languages languagecode="de-informal">de-informal.xml</languages>
-		<languages languagecode="en">en.xml</languages>
-	</instructions> 
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="*">
+		<!-- files -->
+		<files>files.tar</files>
+		<!-- config -->
+		<useroptions>xml/useroptions.xml</useroptions>
+		<options>xml/options.xml</options>
+		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
 </package>
