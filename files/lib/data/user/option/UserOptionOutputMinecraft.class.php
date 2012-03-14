@@ -17,7 +17,7 @@ class UserOptionOutputMinecraft implements UserOptionOutput, UserOptionOutputCon
 	/*
 	 * getURL from Options
 	*/
-	public function getURL($url){
+	public function getURL() {
 		if (USER_MINECRAFT_URL_ENABLE && USER_MINECRAFT_URL){
 			$url = USER_MINECRAFT_URL;
 		}else{
@@ -31,7 +31,7 @@ class UserOptionOutputMinecraft implements UserOptionOutput, UserOptionOutputCon
 					break;
 			}
 		}
-		#return $url;
+		return $url;
 	}
 	
 	/*
@@ -71,7 +71,7 @@ class UserOptionOutputMinecraft implements UserOptionOutput, UserOptionOutputCon
 			'icon' => StyleManager::getStyle()->getIconPath($this->type.'M.png'),
 			'title' => WCF::getLanguage()->get('wcf.user.option.'.$optionData['optionName']),
 			'value' => StringUtil::encodeHTML($value),
-			'url' => $url.StringUtil::encodeHTML($value)
+			'url' => $this->getURL().StringUtil::encodeHTML($value)
 		);
 	}
 
@@ -93,7 +93,7 @@ class UserOptionOutputMinecraft implements UserOptionOutput, UserOptionOutputCon
 	*/
    
 	protected function getLink(User $user, $title, $value) {
-		return '<a href="'.$url.StringUtil::encodeHTML($value).'">'.$title.'</a>';
+		return '<a href="'.$this->getURL().StringUtil::encodeHTML($value).'">'.$title.'</a>';
 	}
 }
 ?>
