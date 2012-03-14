@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- $Id: de-informal.xml 1916 2012-03-12 00:58:48Z TobiasH87 $ -->
+<!-- $Id: de-informal.xml 1917 2012-03-14 20:47:38Z TobiasH87 $ -->
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
 	<category name="wcf.user.option">
 		<item name="wcf.user.option.minecraft"><![CDATA[Minecraft]]></item>
-		<item name="wcf.user.option.minecraft.description"><![CDATA[Gebe hier deinen Accountnamen/Spielernamen ein.]]></item>
+		<item name="wcf.user.option.minecraft.description"><![CDATA[Gebe hier deinen Minecraft Spielernamen ein.]]></item>
 	</category>
 	<category name="wcf.user.profile">
-		<item name="wcf.user.profile.minecraft.title"><![CDATA[Minecraft]]></item>
+		<item name="wcf.user.profile.minecraft.title"><![CDATA[Minecraft - &quot;{$username}&quot;]]></item>
 		
 		<item name="wcf.user.profile.minecraft.url.account"><![CDATA[Account]]></item>
 		<item name="wcf.user.profile.minecraft.url.skin"><![CDATA[Skin]]></item>
@@ -16,10 +16,10 @@
 		<item name="wcf.acp.option.category.user.profile.minecraft"><![CDATA[Minecraft Profilfeld]]></item>
 		<item name="wcf.acp.option.category.user.profile.minecraft.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.user_minecraft_url_select"><![CDATA[Wähle URL]]></item>
-		<item name="wcf.acp.option.user_minecraft_url_select.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.user_minecraft_url_select.description"><![CDATA[Wähle hier, ob der Spielername auf eine &quot;Skin&quot;anzeige oder auf eine &quot;Account&quot;überprüfung verlinkt werden soll.]]></item>
 		<item name="wcf.acp.option.user_minecraft_url_enable"><![CDATA[Eigene URL]]></item>
-		<item name="wcf.acp.option.user_minecraft_url_enable.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.user_minecraft_url_enable.description"><![CDATA[Möchtest du eine eigene URL angeben?]]></item>
 		<item name="wcf.acp.option.user_minecraft_url"><![CDATA[URL]]></item>
-		<item name="wcf.acp.option.user_minecraft_url.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.user_minecraft_url.description"><![CDATA[Gebe hier die URL an, der Spielername wird dann an die URL automatisch angehängt, z.B. http://www.minecraft.net/haspaid.jsp?user=]]></item>
 	</category>
 </language>

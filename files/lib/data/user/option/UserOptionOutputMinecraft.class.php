@@ -6,19 +6,18 @@ require_once(WCF_DIR.'lib/data/user/option/UserOptionOutputContactInformation.cl
 
 /*
  * Implements an Minecraft Profilefield
- * @svn			$Id: UserOptionOutputMinecraft.class.php 1915 2012-03-12 00:48:17Z TobiasH87 $
+ * @svn			$Id: UserOptionOutputMinecraft.class.php 1917 2012-03-14 20:47:38Z TobiasH87 $
  * @package		de.community4wcf.wcf.profile.minecraft
 */
  
 class UserOptionOutputMinecraft implements UserOptionOutput, UserOptionOutputContactInformation {
 	protected $type = 'minecraft';
-	#public $url = '';
 	
 	/*
 	 * getURL from Options
 	*/
 	public function getURL() {
-		if (USER_MINECRAFT_URL_ENABLE && USER_MINECRAFT_URL){
+		if (USER_MINECRAFT_URL_ENABLE){
 			$url = USER_MINECRAFT_URL;
 		}else{
 			switch (USER_MINECRAFT_URL_SELECT) {

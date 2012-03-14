@@ -8,9 +8,9 @@
 		<packagedescription><![CDATA[]]></packagedescription>
 		<packagedescription language="de"><![CDATA[]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[]]></packagedescription>
-		<version>1.0.0 Alpha 1</version> <!-- codename: Minecraft profilfield -->
+		<version>1.0.0</version> <!-- codename: Minecraft profilfield -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<date>2012-03-12</date>
+		<date>2012-03-14</date>
 		<isunique>1</isunique>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.page.user.profile</plugin>
